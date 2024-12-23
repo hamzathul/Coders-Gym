@@ -3,9 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors:{
-        primary:'#ff8901',
-        secondary:"#fb923c",
+      fontFamily: {
+        playfair: ["Playfair", "Display", "serif"],
+      },
+      colors: {
+        primary: "#ff8901",
+        secondary: "#fb923c",
       },
       container: {
         center: true,

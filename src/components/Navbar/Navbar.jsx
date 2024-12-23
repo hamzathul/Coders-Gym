@@ -51,13 +51,13 @@ const Navbar = () => {
           <div>
             {!open && (
               <MdMenu
-                className="text-4xl md:hidden "
+                className="text-4xl md:hidden cursor-pointer"
                 onClick={() => setOpen(!open)}
               />
             )}
             {open && (
               <IoMdClose
-                className="text-4xl md:hidden "
+                className="text-4xl md:hidden cursor-pointer"
                 onClick={() => setOpen(!open)}
               />
             )}
