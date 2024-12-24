@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Equipments from "./components/Equipments/Equipments";
 
 const bgStyle = {
   backgroundImage: `url(
@@ -20,6 +21,7 @@ function App() {
         <Navbar />
         <Hero />
       </div>
+      <Equipments/>
     </div>
   );
 }
